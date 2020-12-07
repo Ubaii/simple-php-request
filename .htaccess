@@ -1,0 +1,17 @@
+# Run Php without filename extension
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+
+# Return 404 if original request is .php
+RewriteCond %{THE_REQUEST} "^[^ ]* .*?\.php[? ].*$"
+RewriteRule  ^ /system.php [E=INTENDED_STATUS:404,END]
+
+# Make 403 to 404
+ErrorDocument 404 /system.php
+ErrorDocument 403 /system.php
+ErrorDocument 500 /system.php
+
+# No Index OFF
+Options -Indexes
