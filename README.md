@@ -11,12 +11,18 @@ localhost/news akan memunculkan string "All News" namun jika ditambah satu strin
 penjelasan simpel nya seperti ini :
 
 localhost/test => halaman notfound (request tidak/belum ditentukkan)
+
 localhost/news => halaman listing berita (request yang sudah ditentukan)
+
 localhost/news/Dunia-tidak-bersatu-lagi => Berita yang ditemukan dalam variabel. (2 request yang sudah ditentukan)
 
 jika ingin melemparkan pertanyaan, silahkan hubungi saya :
 
 telegram : @ubaii_id
+
 instagram : @ubaii.id
+
 facebook : kakko.go.id
+
 whatsapp : 085692259063
+
