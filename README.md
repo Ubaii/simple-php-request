@@ -19,10 +19,6 @@ localhost/news/Dunia-tidak-bersatu-lagi => Berita yang ditemukan dalam variabel.
 jika ingin melemparkan pertanyaan, silahkan hubungi saya :
 
 telegram : @ubaii_id
-
 instagram : @ubaii.id
-
 facebook : kakko.go.id
-
-whatsapp : 085692259063
 
